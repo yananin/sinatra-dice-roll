@@ -1,0 +1,10 @@
+
+<h1>1d20</h1>
+
+<% if @num == 1 %>
+  <p style="color: red"><%= @result %></p>
+<% elsif @num == 20 %>
+  <p style="color: green"><%= @result %></p>
+<% else %>
+  <p><%= @result %></p>
+<% end %>
